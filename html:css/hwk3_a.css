@@ -1,0 +1,40 @@
+/* 
+Kevin Zhang
+hwk3_a.css
+24 Sep 2018
+*/
+
+html {
+    background: #cc5500;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Verdana', sans-serif;
+    padding: 5px;
+}
+
+
+body {
+	background: ghostwhite;
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+}
+
+img {
+    text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.date {
+    float: right;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+}

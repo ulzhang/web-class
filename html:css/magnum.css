@@ -1,0 +1,60 @@
+/*
+
+File: magnum.css
+
+*/
+
+html {
+margin: 2px;
+padding: 2px;
+}
+
+body {
+margin: 2px;
+body: 2px;
+padding: #5d665b;
+background-color: #e8eae8;
+font-family: Verdana, Geneva, Arial, sans-serif;
+font-size: small;
+line-height: 200%;
+}
+
+.header {
+position: absolute;
+top: 0px;
+margin: 2px;
+max-height: 60px;
+min-width: 700px;
+max-width: 720px;
+border-bottom: 1px double;
+vertical-align: 1px double;
+}
+
+h1 {
+text-align: center;
+letter-spacing: 5px;
+}
+
+.navCol {
+position: absolute;
+top: 60px;
+left: 0px;
+width: 150px;
+min-height: 300px;
+max-height: 400px;
+margin: 2px;
+}
+
+.footer {
+position: absolute;
+top: 750px;
+clear: both;
+min-width: 700px;
+max-width: 720px;
+margin: 2px;
+padding: 2px;
+border-top: 1px double;
+border-bottom: 1px solid;
+}
+
+

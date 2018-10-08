@@ -1,0 +1,122 @@
+/* 
+hwk4.css
+kevin zhang
+28 Sep 2018
+*/
+#container
+{
+width: 90%;
+margin: 10px auto;
+background-color: #fff;
+color: #333;
+border: 1px solid gray;
+line-height: 130%;
+}
+
+#top
+{
+padding: .5em;
+background-color: #ddd;
+border-bottom: 1px solid gray;
+}
+
+#top h1
+{
+padding: 0;
+margin: 0;
+}
+
+#leftnav
+{
+float: left;
+width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+#rightnav
+{
+float: right;
+width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+#content
+{
+margin-left: 200px;
+border-left: 1px solid gray;
+margin-right: 200px;
+border-right: 1px solid gray;
+padding: 1em;
+}
+
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333;
+background-color: #ddd;
+border-top: 1px solid gray;
+}
+
+h1 {
+    letter-spacing: 2px;
+    margin-top: 5%;
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: "Helvetica";
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 17px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: "Helvetica";
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-bottom: 1px solid silver;
+    font-style: italic;
+}
+
+img {
+    padding: 2%;
+    width: 45%;
+}
+
+#content .picture {
+    float: right;
+    width: 330px;
+    margin-left: 20px;
+    font-size: smaller;
+}
+
+#content .picture p {
+    margin: 0px;
+}
+
+div.title {
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+    color: #333;
+    border: 1px solid gray;
+    line-height: 130%;
+}
+
+
+#leftnav p, #rightnav p { margin: 0 0 1em 0; }
+#content h2 { margin: 0 0 .5em 0; }

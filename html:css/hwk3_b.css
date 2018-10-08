@@ -1,0 +1,68 @@
+/*
+File: hwk3_b.css
+Author: kevin zhang
+date made: sep 24 2018
+date mod: sep 24 2018
+*/
+
+html {
+    background: #cc5500;
+}
+
+body {
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', sans-serif;
+    padding-left: 10px;
+    text-align: left;
+    display:block;
+}
+
+div {
+    padding: 10px;
+    background-color: white;
+  border: 1px solid orangered;
+  width: 50%;
+  border-radius: 10px;
+}
+
+body {
+	background: white;
+}
+
+img {
+    text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.date {
+    float: right;
+}
+
+label {
+    border-bottom: 1px solid black;
+}
+
+input[type=submit]  {
+    width: 100px;
+    color: #fff;
+    border-color: white;
+    background: #cc5500;
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+  }
+
+input[type=reset]  {
+    width: 100px;
+    color: #fff;
+    border-color: white;
+    background: #cc5500;
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+  }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <h1>Hw3-2: Campus Visit Feedback Form</h1>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="hwk3_b.css">
+</head>
+
+<body>
+
+    <form action="" method="post">
+        <div>
+        <label><strong>General Information</strong></label><br /><br />
+
+                Name:<br /><input size = "100" type="text" name="name"><br />
+                Street:<br /><input size = "100" type="text" name="street"><br />
+                Email:<br /><input size = "100" type="text" name="email"><br />
+        </div>
+        <br />
+        
+         <div>
+        <label><strong>What did you like most about campus?</strong></label> <br />
+        <br />
+       <input type="checkbox" name="students" value="students"> Students <br />
+        <input type="checkbox" name="location" value="location"> Location <br />
+        <input type="checkbox" name="campus" value="campus"> Campus <br />
+        <input type="checkbox" name="courses offered" value="courses offered"> Courses Offered <br />
+        <input type="checkbox" name="dorm rooms" value="dorm rooms"> Dorm Rooms <br />
+        <input type="checkbox" name="sports" value="sports"> Sports <br />
+        </div>
+
+        <br />
+    <div>
+        <label><strong>How did you get interested in UT Austin?</strong></label>
+        <br />
+        <br />
+        
+        <input type="radio" name="interest" value="family"> Family <br />
+        <input type="radio" name="interest" value="friends"> Friends <br />
+        <input type="radio" name="interest" value="television"> Television <br />
+        <input type="radio" name="interest" value="internet"> Internet <br />
+        <input type="radio" name="interest" value="other"> Other <br />
+        </div>
+
+
+        <br />
+        <div>
+                <label><strong>What departments did you visit?</strong></label> <br /> <br />
+        <select multiple size="5" style="max-width:200%;">
+            <option value="natural science">Natural Science</option>
+            <option value="engineering">Engineering</option>
+            <option value="business">Business</option>
+            <option value="liberal arts">Liberal Arts</option>
+            <option value="nursing">Nursing</option>
+            <option value="fine arts">Fine Arts</option>
+            <option value="education">Education</option>
+            <option value="pharmacy">Pharmacy</option>
+            <option value="geosciences">Geosciences</option>
+            <option value="architecture">Architecture</option>
+            <option value="law">Law</option>
+            <option value="communications">Communications</option>
+        </select>
+        </div>
+
+
+        <br />
+        <br />
+        <div>
+        <label><strong>Additional Comments</strong></label> <br />
+        <br />
+        
+        <textarea name="comment" rows="10" cols="40" placeholder="Enter comment here..."></textarea>
+    </div>
+        <br />
+        <div>
+        <input type="submit" value="Submit"></button>
+        <input type="reset" value="Reset"></button>
+        </div>
+        
+    </form>
+
+
+</body>
+
+<footer>
+    <p>
+        <a href="mailto:kevinzhang@utexas.edu">Kevin Zhang</a>
+
+        <script>
+        document.write("" +document.lastModified)
+        </script>
+    </p>
+</footer>
+
+</html>
+
+
